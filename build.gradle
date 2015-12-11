@@ -31,6 +31,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-jersey')
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile('org.codehaus.groovy:groovy:2.4.5')
+	testCompile('cglib:cglib-nodep:3.2.0')
 	testCompile('com.jayway.jsonpath:json-path:2.1.0')
 	testCompile("org.spockframework:spock-core:0.7-groovy-2.0")
     testCompile('org.springframework.boot:spring-boot-starter-test') 
